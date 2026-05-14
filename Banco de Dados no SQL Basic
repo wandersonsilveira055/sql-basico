@@ -1,0 +1,13 @@
+-- gerar tabela no banco de dados
+CREATE TABLE usuario (
+    id INT PRIMARY KEY,
+    nome VARCHAR(100),
+    email VARCHAR(100)
+);
+
+-- registro da tabela
+INSERT INTO usuario (id, nome, email)
+VALUES ( 01,'joao', 'joao@gmail.com');
+
+-- visualizar tabela
+SELECT * FROM usuario;
